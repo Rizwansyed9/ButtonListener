@@ -11,11 +11,7 @@
     tools:context="com.example.rizwansyed.button.MainActivity">
 
 
-   <TextView
-       android:text="hi"
-       android:textColor="@color/colorPrimaryDark"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content" />
+
     <Button
         android:text="submit"
         android:layout_width="wrap_content"
@@ -24,4 +20,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="81dp"
         android:id="@+id/button" />
+    <Button
+        android:text="2nd button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
